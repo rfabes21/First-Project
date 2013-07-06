@@ -27,6 +27,9 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+h4{
+    margin-bottom: 30px;
+}
 .studio h4 {
     font-weight: normal;
     font-style: italic;
