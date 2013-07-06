@@ -2,7 +2,6 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     background-color: #f6f0e7;
-    background-position: center-top;
     font-size: 12px;
     letter-spacing: 1px;
     color: #333333;
@@ -104,8 +103,9 @@ ul {
     border-bottom: 2px solid #fff;
 }
 .center ul h3 {
-    float: left;
+    /*float: left;*/
     position: absolute;
+    display: inline-block;
     top: 14px;
     left: 0;
     font-size: 40px;
@@ -117,9 +117,8 @@ ul {
     margin: 0;
 }
 .center ul h4 {
-    float: left;
     margin: 11px 0;
-    display: inline;
+    display: inline-block;
 }
 .img-center-right {
     float: right;
@@ -163,8 +162,11 @@ ul {
 .sidebar p, .sidebar dl, .sidebar h4 {
     margin-left: 11px;
 }
-.happyhour {
-    width: 100%;
-    margin-left: 45%;
-    float: left;
+.center:after {
+    content: url('img/sprite/studio/haus-happy-hour.png');
+    position: absolute;
+    left:45%;
 }
+
+
+
