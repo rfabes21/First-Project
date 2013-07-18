@@ -190,23 +190,33 @@ ul {
     position: relative; 
     top: -110px;
     pointer-events: none;
-}
-.contact-info {
 
 }
+
+.contact-info {
+    pointer-events: all;
+    display: inline;
+}
+
 .director {
     background-color: #999;
     width: 113px;
     top: -97px;
     right: -10px;
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 12px;
     pointer-events: auto;
 }
+
+.director a {
+    color: #567880;
+}
+
 .director a:hover {
     text-decoration: none;
     color: inherit;
 }
+
 .haus {
     background: url('img/sprite/ui/haus-stencil.png') top no-repeat;
     width: 192px;
@@ -224,10 +234,16 @@ address {
     font-style: normal;
     font-weight: bold;
 }
+
+address a {
+    color: #567880;
+}
+
 address a:hover {
     text-decoration: none;
     color: inherit;
 }
+
 .mapmenu {
     background-color: #000;
     width: 178px;
@@ -237,19 +253,21 @@ address a:hover {
     pointer-events: auto;
     font-style: italic;
 }
+
 .mapmenu a {
     color: #5f7a95;
     text-decoration: none;
 }
+
 .mapmenu a:hover {
     color: #fff;
 }
 .X {
     top: -83px;
     right: 10px;
-    
     pointer-events: all;
 }
+
 .close {
     text-align: center;
     background-color: #fa5c3c;
@@ -260,3 +278,22 @@ address a:hover {
     border: none;
 }
 
+.close:hover {
+    color: #fff;
+}
+
+.open {
+    text-align: center;
+    background-color: #fa5c3c;
+    margin:0;
+    padding:0;
+    width: 120px;
+    height: 20px;
+    border: none;
+    text-transform: uppercase;
+    pointer-events: all;
+}
+
+.open:hover {
+    color: #fff;
+}
