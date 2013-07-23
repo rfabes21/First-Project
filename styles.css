@@ -167,7 +167,7 @@ ul {
 }
 .center:after {
     content: "";
-    background: url('img/sprite/studio/haus-happy-hour.png');
+    background: url('img/sprite/studio/haus-happy-hour.png') top no-repeat;
     position: absolute;
     width: 200px;
     height: 200px;
