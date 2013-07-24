@@ -174,7 +174,7 @@ ul {
     left:45%;
 }
 
-.director, .haus, address, .mapmenu, .X {
+.director, .haus, address, .mapmenu, .X, .contact-info {
     display: inline-block;
     position: relative;
 }
@@ -190,12 +190,15 @@ ul {
     position: relative; 
     top: -110px;
     pointer-events: none;
-
+    display: none;
 }
 
 .contact-info {
     pointer-events: all;
     display: inline;
+    margin-left: 47%;
+    top: -10px;
+    /*display: none;*/
 }
 
 .director {
@@ -203,7 +206,7 @@ ul {
     width: 113px;
     top: -97px;
     right: -10px;
-    margin-left: 5%;
+    margin-left: 15%;
     padding: 12px;
     pointer-events: auto;
 }
@@ -284,16 +287,17 @@ address a:hover {
 
 .open {
     text-align: center;
-    background-color: #fa5c3c;
+    background-color: #696767;
     margin:0;
     padding:0;
     width: 120px;
-    height: 20px;
+    height: 18px;
     border: none;
     text-transform: uppercase;
     pointer-events: all;
 }
 
 .open:hover {
-    color: #fff;
+    background-color: #fa5c3c;
 }
+
