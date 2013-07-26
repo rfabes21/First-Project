@@ -5,6 +5,15 @@
 		<meta charset="utf-8">
 		<title>HAUS | Design, Development, and Video Content Production</title>
 		<link rel="stylesheet" href="styles.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script>
+		$(document).ready(function(){
+  			$("button").click(function(){
+    			$("div.contact-menu").toggleClass("show-btn");
+  			});
+		});
+		</script>
 	</head>
 
 	<body>
@@ -15,9 +24,6 @@
 		
 			<div class="map-container">
 				<iframe width="1000" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?ie=UTF8&amp;ll=37.269174,-119.306607&amp;spn=10.187893,22.192383&amp;t=m&amp;z=6&amp;output=embed"></iframe>
-				<div class="contact-info">
-                    <button class="open">Contact Info</button>
-                </div>
 
 				<div class="contact-menu">
                     <div class="director">
@@ -44,6 +50,9 @@
                     <div class="X">
                     	<button class="close">X</button>
                     </div>
+                    <div class="contact-info">
+                    	<button class="open">Contact Info</button>
+                	</div>
 				</div>
 			</div>
 			

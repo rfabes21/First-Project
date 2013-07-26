@@ -190,17 +190,16 @@ ul {
     position: relative; 
     top: -110px;
     pointer-events: none;
-    display: none;
 }
 
 .contact-info {
     pointer-events: all;
     display: inline;
     margin-left: 47%;
-    top: -10px;
-    /*display: none;*/
+    top: 101px;
+    display: none;
 }
-
+   
 .director {
     background-color: #999;
     width: 113px;
@@ -301,3 +300,10 @@ address a:hover {
     background-color: #fa5c3c;
 }
 
+.show-btn .contact-info {
+    display: block; 
+ }
+   
+.show-btn .director, .show-btn .haus, .show-btn address, .show-btn .mapmenu, .show-btn .X {
+    display: none; 
+}
